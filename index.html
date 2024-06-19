@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<meta http-equiv = "X-UA-Compatible" content = "IE = edge">
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+		
+		<script src = "https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script src = "https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+		<script src = "https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+		<script src = "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+		
+		<link rel = "icon" href = "Portfolio_icon.jpeg" />
+		<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+		<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+		<link rel = "stylesheet" href = "style.css">
+		<title>Anurag Portfolio Website</title>
+	
+	</head>
+	<body>
+		<div class = "scroll-up-btn">
+			<i class = "fas fa-angle-up"></i>
+		</div>
+		<nav class = "navbar">
+			<div class = "max-width">
+				<div class = "logo"><a href = "#">Anurag<span>folio</span></a></div>
+				<ul class = "menu">
+					<li><a href = "#home" class = "menu-btn">Home</a></li>
+					<li><a href = "#about" class = "menu-btn">About</a></li>
+					<li><a href = "#projects" class = "menu-btn">Projects</a></li>
+					<li><a href = "#skills" class = "menu-btn">Skills</a></li>
+					<li><a href = "#Education" class = "menu-btn">Education</a></li>
+					<li><a href = "#contact" class = "menu-btn">Contact</a></li>
+				</ul>
+				<div class = "menu-btn">
+					<i class = "fas fa-bars"></i>
+				</div>
+			</div>
+		</nav>
+	
+		<!-- home section start -->
+		<section class = "home" id = "home">
+			<div class = "max-width">
+				<div class = "home-content">
+					<div class = "text-1">My name is</div>
+					<div class = "text-2">Anurag Chakravarty</div>
+					<div class = "text-3">And I'm a <span class = "typing"></span></div>
+					<a href="https://github.com/anuragchakravarty" target="_blank">My GitHub</a>
+				</div>
+			</div>
+		</section>
+	
+		<!-- about section start -->
+		<section class = "about" id = "about">
+			<div class = "max-width">
+				<h2 class = "title">About Me</h2>
+				<div class = "about-content">
+					<div class = "column left">
+						<img src="anurag.jpg" alt="">
+					</div>
+					<div class = "column right">
+						<div class = "text">I'm Anurag and I'm  <span class = "typing-2"></span></div>
+						
+						<h1 class="summary"> Summary </h1>
+						
+						<p> <ul> 
+							
+								
+								  <li><strong>Programming Languages:</strong> Proficient in Python, R, C++, C, Java and Excel.</li>
+								  <li><strong>Libraries/Frameworks:</strong> Experienced in Numpy, Pandas, Matplotlib, Seaborn and Tkinter.</li>
+								  <li><strong>DBMS:</strong> Skilled in database management system and SQL.</li>
+								  <li><strong>Project Development:</strong> Capable of developing various projects.</li>
+								  <li><strong>GUI:</strong> Capable of developing various Gui and interactive games using Tkinter .</li>
+								  <li><strong>Tools and Platforms:</strong> Proficient in VS Code, Jupyter notebook , GitHub, R Studio, and MS Excel.</li>
+							  
+							  
+							  
+								
+								  <li>Pursuing a <strong>Bachelor's degree in Computer Science and Engineering</strong> with a specialization in <strong>Data Science </strong>from <strong>Lovely Professional University</strong></li>
+								  <li>Developed and deployed several <strong>Python</strong> and <strong>R</strong> projects.</li>
+								  <li>Demonstrated strong problem-solving abilities and adaptability through hands-on projects and coursework.</li>
+								  <li>Actively involved in the developer community, contributing to open-source projects and participating in <strong>hackathons</strong> and <strong>coding competitions.</strong></li>
+								
+							  
+							  
+							  
+								
+								  <li>Aspiring to be at the forefront of <strong>Data Science innovation</strong> and <strong>Python developer</strong>, with a commitment to leveraging technology for positive change.</li>
+								  <li>Passionate about leveraging data science to tackle real-world challenges and contribute to projects that make a meaningful impact on society.</li>
+								
+							  
+						</ul>
+			            </p>
+						<a href = "resume.pdf">My CV</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		<!-- project section start -->
+		<section class = "projects" id = "projects">
+			<div class = "max-width">
+				<h2 class = "title">My Projects</h2>
+				<div class = "proj-content">
+					<div class = "card">
+						<div class = "box">
+						
+							<div class = "text"> Rock Paper Scissors Game.</div>
+							<p>
+							<ul>
+								<li>Contains a simple, interactive command-line implementation of the classic Rock, Paper, Scissors game using Python.</li>
+								<li>Provides a Python-based implementation of the game for interactive play.</li>
+								<li>Designed to run in the command-line interface for straightforward execution and user interaction.</li>
+								<li>Allows users to play the game against the computer with basic rules (Rock beats Scissors, Scissors beats Paper, Paper beats Rock).</li>
+								<li>Offers a fun and educational introduction to programming logic and basic game development concepts using Python.</li>
+								<li> <b>Technologies used:</b> Python</li>
+							</ul>
+							</p>
+						</div>
+					</div>
+					<div class = "card">
+						<div class = "box">
+							
+							<div class = "text">Number Guessing. </div>
+							<p><ul>
+								<li>The program generates a random number within a specified range (typically 1 to 100).</li>
+                                <li>The player inputs their guess for the randomly generated number.</li>
+                                <li>The program provides feedback on whether the guess is too high, too low, or correct.</li>
+                                <li>Players have a limited number of attempts to guess the correct number.</li>
+                                <li>Players can play multiple rounds to try and improve their score.</li>
+                                <li>The goal is to correctly guess the number within the allowed attempts and to achieve the highest score possible over multiple rounds.</li>
+								<li><b>Technologies used:</b> Python, Tkinter, Random.</li>
+							</ul>
+						</p>
+						</div>
+					</div>
+					<div class = "card">
+						<div class = "box">
+							
+							<div class = "text">Dice Roll Game in Python</div>
+							<p><ul>
+								<li>A game where the user inputs a static number between 1 and 6.</li>
+                                <li>The program rolls a virtual dice.</li>
+                                <li>If the rolled number matches the user's input, the user wins and earns a point.</li>
+                                <li>The user can play multiple times until they choose to exit.</li>
+                                <li>The game keeps track of the user's score across multiple rounds.</li>
+                                <li>The game provides feedback after each roll, indicating whether the user won or lost that round.</li>
+                                <li>At the end of the game, the final score is displayed.</li>
+                                <li>Technologies used: Python</li>
+							</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</section>
+	
+		<!-- skills section start -->
+		<section class = "skills" id = "skills">
+			<div class = "max-width">
+				<h2 class = "title">My Skills</h2>
+				<div class = "skills-content">
+					<div class = "column left">
+						<div class = "text"> My Technical Skills: </div>
+						<p>
+							<li><b>Programming Languages: </b> Python, R, Java, C++, C.</li>
+							<li><b>Data Analysis:</b> Pandas, NumPy. </li>
+							<li><b>Data Visualization:</b> Matplotlib, Seaborn, MS Excel.</li>
+							<li><b>Graphical User Interface:</b> Tkinter</li>
+                            <li><b>Database:</b> SQL, SQLite.</li>
+							<li><b>Tools and IDEs: </b>VS Code, Jupyter notebook , GitHub, IntelliJ CE, R Studio, and MS Excel.</li>
+							<li><b>Operating System: </b>Windows, MacOS .</li>
+						</p>
+
+						<div class = "vertical"><br>
+							<div class = "text">Personal Qualities:</div>
+							<p>
+								<li>Strong problem-solving, analytical and critical thinking skills.</li>
+								<li>Excellent attention to detail and Passionate about work.</li>
+								<li>Ethical Working Nature.</li>
+								<li>Ability to work independently and as part of a team.</li>
+								<li>Fast learner and open to new technologies.</li>
+								<li>Effective at prioritizing tasks, meeting deadlines and delivering high-quality work on time.</li>
+
+							</p>
+						<a href = "acv.html">Achievements</a>
+					</div>
+					
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		<!-- Education section start -->
+		<section class = "Education" id = "Education">
+			<div class = "max-width">
+				<h2 class = "title">My Education</h2>
+				<div class = "carousel owl-carousel">
+					<div class = "card">
+						<div class = "box">
+							
+							<div class = "text">Sept 2022 - Present  <br> BTech <br> Lovely Professional University , Jalandhar , Punjab </div>
+							<p>CGPA - </p>
+						</div>
+					</div>
+					<div class = "card">
+						<div class = "box">
+							
+							<div class = "text">Aug 2019 - Sept 2021  <br> Intermediate  <br> Buddha Public School, Saharsa, Bihar </div>
+							<p>Percentage - 72%</p>
+						</div>
+					</div>
+					<div class = "card">
+						<div class = "box">
+							
+							<div class = "text">April 2018 - May 2019 <br> Matriculation <br> Buddha Public School, Saharsa, Bihar  </div>
+							<p>Percentage - 89.2%</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		<!-- contact section start -->
+		<section class = "contact" id = "contact">
+			<div class = "max-width">
+				<h2 class = "title">Contact me</h2>
+				<div class = "contact-content">
+					<div class = "column left">
+						<div class = "text">Get in touch with me</div>
+						<p>Below are my details, you can mail me on the below E-mail address or can directly message me by entering the adjacent details : </p>
+						<div class = "icons">
+							<div class = "row">
+								<i class = "fas fa-user"></i>
+								<div class = "info">
+									<div class = "head">Name</div>
+									<div class = "sub-title">Anurag Chakravarty</div>
+								</div>
+							</div>
+							<div class = "row">
+								<i class = "fas fa-map-marker-alt"></i>
+								<div class = "info">
+									<div class = "head">Address</div>
+									<div class = "sub-title">Refugee colony, Ward no 06 , Nagar nigam, Saharsa, Bihar.</div>
+								</div>
+							</div>
+							<div class = "row">
+								<i class = "fas fa-envelope"></i>
+								<div class = "info">
+									<div class = "head"> Email</div>
+									<div class = "sub-title"> anuragchakravarty4@gmail.com</div>
+								</div>
+							</div>
+						</div>
+					</div>
+                    <!--
+					<div class = "column right">
+						<div class = "text">Message Me</div>
+						<form action = "#">
+							<div class = "fields">
+								<div class = "field name">
+									<input type = "text" placeholder = "Name" required>
+								</div>
+								<div class = "field email">
+									<input type = "email" placeholder = "Email" required>
+								</div>
+							</div>
+							<div class = "field">
+								<input type = "text" placeholder = "Subject" required>
+							</div>
+							<div class = "field textarea">
+								<textarea cols = "30" rows = "10" placeholder = "Message.." required></textarea>
+							</div>
+							<div class = "button-area">
+								<button type = "submit">Send message</button>
+							</div>
+						</form>
+					</div> -->
+                    <div class="column right">
+                        <div class="text">Message Me</div>
+                        <p>Feel free to reach out to me via any of my social media accounts below for any questions or assistance. I'm here to help! Whether you have queries about my work, want to collaborate, or simply chat about shared interests, I look forward to connecting with you.</p><br>
+                        <div class="button-area">
+                            <!-- LinkedIn -->
+                            <a href="https://www.linkedin.com/in/anurag-chakravarty-r/" target="_blank" class="social-icon"><img src="https://pbs.twimg.com/profile_images/1661161645857710081/6WtDIesg_400x400.png" alt="LinkedIn" style="width: 50px; height: 50px;"></a><br>
+                            <!-- Instagram -->
+                            <a href="https://www.instagram.com/anurag__chakravarty/" target="_blank" class="social-icon"><img src="https://cdn.pixabay.com/photo/2021/06/15/12/14/instagram-6338393_1280.png" alt="Instagram" style="width: 50px; height: 50px;"></a><br>
+                            <!-- Twitter -->
+                            <a href="https://x.com/devilxgod21" target="_blank" class="social-icon"><img src="https://static.dezeen.com/uploads/2023/07/x-logo-twitter-elon-musk_dezeen_2364_col_0.jpg" alt="Twitter" style="width: 50px; height: 50px;"></a><br>
+                            
+                        </div>
+                    </div>
+                    
+                    
+				</div>
+			</div>
+		</section>
+	
+		<!-- footer section start -->
+		<footer>
+			<span>Created By <a href = "https://github.com/anuragchakravarty">Anurag Chakravarty </a> | <span class = "far fa-copyright"></span> 2024 All rights reserved.</span>
+		</footer>
+	
+		<script src = "style.js"></script>
+	</body>
+</html>

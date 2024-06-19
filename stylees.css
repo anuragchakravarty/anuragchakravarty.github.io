@@ -1,0 +1,88 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: url('bryan-goff-f7YQo-eYHdM-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.achievements-container {
+    background-color: rgba(30, 5, 63, 0.3); /* Transparent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Padding inside the container */
+    margin: 20px 0; /* Margin from top and bottom */
+    max-width: 800px;
+    width: 90%;
+}
+
+.main-heading {
+    font-size: 2.5em;
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.gallery {
+    max-width: 1000px;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0); /* Transparent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px; /* Padding inside the container */
+}
+
+.gallery-item {
+    text-align: center;
+    margin-bottom: 70px; /* Increased bottom margin to create more space between items */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery-item:last-child {
+    margin-bottom: 0;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading-container {
+    background-color: rgba(255, 255, 255, 0.5); /* Slightly transparent background */
+    padding: 30px;
+    margin-bottom: 10px; /* Space between heading container and image */
+    border-radius: 5px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.heading-container h3 {
+    margin: 0;
+    font-size: 1.8em; /* Increased font size */
+    color: #333;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.gallery-item:hover img,
+.gallery-item:hover .heading-container {
+    transform: scale(1.05);
+}
+
+.gallery-item:hover img {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item:hover .heading-container {
+    background-color: rgba(98, 99, 100, 0.687); /* Change background color on hover */
+}
+
+.gallery-item:hover h3 {
+    color: #1e0236; /* Change heading color on hover */
+}
