@@ -42,7 +42,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Data Science Intern at Coding_Samurai", "Python Intern at Codsoft", "Student Partner at Internshala"],
+        strings: ["Data Science Intern at Yubi", "Python Intern at Codsoft", "Student Partner at Internshala"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
