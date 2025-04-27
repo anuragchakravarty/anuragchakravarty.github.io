@@ -350,6 +350,56 @@ section .title::after{
     background: none;
 }
 
+/* Project section styling */
+/* Center the button within its card */
+.card .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.but1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 15px;
+    background-color: #181717;
+    outline: 3px #181717 solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .but1 .text {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+  }
+  
+  .but1 svg path {
+    transition: 400ms;
+  }
+  
+  .but1:hover {
+    background-color: transparent;
+  }
+  
+  .but1:hover .text {
+    color: #181717;
+  }
+  
+  .but1:hover svg path {
+    fill: #181717;
+  }
+  
+
+
 
 
 /* Education section styling */
